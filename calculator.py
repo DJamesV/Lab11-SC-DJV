@@ -1,3 +1,4 @@
+# https://github.com/DJamesV/Lab11-SC-DJV
 """ ""
 calculator.py
 - Defines functions used to create a simple calculator
@@ -56,6 +57,7 @@ def logarithm(a, b):
 
 def exponent(a, b):
     return a**b
+
 
 def square_root(a):
     if a < 0:

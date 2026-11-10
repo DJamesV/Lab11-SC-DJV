@@ -1,3 +1,4 @@
+# https://github.com/DJamesV/Lab11-SC-DJV
 import unittest
 from calculator import *
 
@@ -23,8 +24,8 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(multiply(0, 3), 0)
 
     def test_divide(self):  # 3 assertions
-        self.assertEqual(div(3,6), 2)
-        self.assertEqual(div(3,-6), -2)
+        self.assertEqual(div(3, 6), 2)
+        self.assertEqual(div(3, -6), -2)
         self.assertEqual(div(3, 0), 0)
 
     ######## Partner 2
